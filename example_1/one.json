@@ -3,8 +3,7 @@
     "kind": "Dashboard",
     "metadata": {        
         "name": "acb5025f-ebd1-488f-a5b4-94605a3d7070",
-        "namespace": "default",
-        "resourceVersion": "11066"
+        "namespace": "default"
     },
     "spec": {
         "annotations": {
