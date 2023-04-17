@@ -1,0 +1,133 @@
+{
+    "apiVersion": "dashboard.core.grafana.com/v0-0alpha1",
+    "kind": "Dashboard",
+    "metadata": {        
+        "name": "acb5025f-ebd1-488f-a5b4-94605a3d7070",
+        "namespace": "default",
+        "resourceVersion": "1",
+        "uid": "e6886bbf-016f-49f0-90c3-28caaa623fa4"
+    },
+    "spec": {
+        "annotations": {
+            "list": [
+                {
+                    "builtIn": 1,
+                    "datasource": {
+                        "type": "grafana",
+                        "uid": "-- Grafana --"
+                    },
+                    "enable": true,
+                    "hide": true,
+                    "iconColor": "rgba(0, 211, 255, 1)",
+                    "name": "Annotations \u0026 Alerts",
+                    "showIn": 0,
+                    "type": "dashboard"
+                }
+            ]
+        },
+        "editable": true,
+        "fiscalYearStartMonth": 0,
+        "graphTooltip": 0,
+        "liveNow": false,
+        "panels": [
+            {
+                "datasource": {
+                    "type": "testdata",
+                    "uid": "f0e88331-3c8b-4470-9bc6-7fdedf6c4707"
+                },
+                "fieldConfig": {
+                    "defaults": {
+                        "color": {
+                            "mode": "palette-classic"
+                        },
+                        "custom": {
+                            "axisCenteredZero": false,
+                            "axisColorMode": "text",
+                            "axisLabel": "",
+                            "axisPlacement": "auto",
+                            "barAlignment": 0,
+                            "drawStyle": "line",
+                            "fillOpacity": 0,
+                            "gradientMode": "none",
+                            "hideFrom": {
+                                "legend": false,
+                                "tooltip": false,
+                                "viz": false
+                            },
+                            "lineInterpolation": "linear",
+                            "lineWidth": 1,
+                            "pointSize": 5,
+                            "scaleDistribution": {
+                                "type": "linear"
+                            },
+                            "showPoints": "auto",
+                            "spanNulls": false,
+                            "stacking": {
+                                "group": "A",
+                                "mode": "none"
+                            },
+                            "thresholdsStyle": {
+                                "mode": "off"
+                            }
+                        },
+                        "mappings": null,
+                        "thresholds": {
+                            "mode": "absolute",
+                            "steps": [
+                                {
+                                    "color": "green"
+                                },
+                                {
+                                    "color": "red",
+                                    "value": 80
+                                }
+                            ]
+                        }
+                    },
+                    "overrides": null
+                },
+                "gridPos": {
+                    "h": 9,
+                    "w": 12,
+                    "x": 0,
+                    "y": 0
+                },
+                "id": 2,
+                "options": {
+                    "legend": {
+                        "calcs": null,
+                        "displayMode": "list",
+                        "placement": "bottom",
+                        "showLegend": true
+                    },
+                    "tooltip": {
+                        "mode": "single",
+                        "sort": "none"
+                    }
+                },
+                "title": "Panel Title",
+                "type": "timeseries"
+            }
+        ],
+        "refresh": "",
+        "schemaVersion": 38,
+        "style": "dark",
+        "templating": {},
+        "time": {
+            "from": "now-6h",
+            "to": "now"
+        },
+        "timepicker": {
+            "collapse": false,
+            "enable": false,
+            "hidden": false,
+            "refresh_intervals": null,
+            "time_options": null
+        },
+        "timezone": "",
+        "title": "Dash One",
+        "uid": "acb5025f-ebd1-488f-a5b4-94605a3d7070",
+        "version": 0,
+        "weekStart": ""
+    }
+}
