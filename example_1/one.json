@@ -3,9 +3,7 @@
     "kind": "Dashboard",
     "metadata": {        
         "name": "acb5025f-ebd1-488f-a5b4-94605a3d7070",
-        "namespace": "default",
-        "resourceVersion": "1",
-        "uid": "e6886bbf-016f-49f0-90c3-28caaa623fa4"
+        "namespace": "default"
     },
     "spec": {
         "annotations": {
